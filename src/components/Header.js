@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 
-
-
 const Header = () => {
   const [flashContato, setFlashContato] = useState(false);
   const [flashNegociar, setFlashNegociar] = useState(false);
   const [flashHome, setFlashHome] = useState(false);
 
   const containerStyle = {
-    width: '60%', // Reduzir para 60%
-    height: '60%', // Reduzir para 60%
+    width: '30%', // Reduzir para 60%
+    height: '30%', // Reduzir para 60%
+    alignitems: 'center',
+    justifycontent: 'center',
     position: 'relative',
   };
 
